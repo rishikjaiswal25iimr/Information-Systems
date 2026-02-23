@@ -5,3 +5,4 @@ plotly
 prophet
 graphviz
 scikit-learn
+statsmodels

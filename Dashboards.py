@@ -96,7 +96,7 @@ st.title("Amazon SCM & AI Analytics Dashboard")
 st.markdown("---")
 
 # --- Section 3.3: Methodology Flowchart ---
-st.header("Section 3.3: Methodology Flowchart")
+st.header("Methodology Flowchart")
 st.markdown("""
 *Maps to **System Architecture & Data Pipeline***.  
 The following enterprise architecture diagram illustrates the end-to-end data pipeline, moving from raw API ingestion through generative AI execution and ending in managerial visualization.
@@ -121,7 +121,7 @@ st.graphviz_chart('''
 st.markdown("---")
 
 # Section 3.6 Header
-st.header("Section 3.6: Predictive Analytics & Demand Forecasting")
+st.header("Predictive Analytics & Demand Forecasting")
 st.markdown("""
 *Maps to **CSF 6 (Supply Chain Resilience)***.  
 This tool utilizes AI forecasting models to predict inventory strain. Adjust the marketing push slider below to simulate how sudden demand spikes affect localized fulfillment predictions.
@@ -249,7 +249,7 @@ st.plotly_chart(fig_scatter, use_container_width=True)
 
 # --- Deliverable 4.4: Additional Visual Insights ---
 st.markdown("---")
-st.header("Deliverable 4.4: Advanced AI Clustering & Monthly Trends")
+st.header("Advanced AI Clustering & Monthly Trends")
 
 col_cluster, col_trend = st.columns(2)
 
@@ -335,7 +335,7 @@ with col_trend:
 # --- Section 3.8: Implementation Roadmap ---
 
 st.markdown("---")
-st.header("Section 3.8: Implementation Roadmap")
+st.header("Implementation Roadmap")
 st.markdown("""
 *Maps to **System Integration & Project Execution***.  
 The following Gantt chart outlines the strategic timeline for deploying the AI and SCM infrastructure across the 2025-2026 fiscal cycle. Use the filter below to isolate specific operational phases.

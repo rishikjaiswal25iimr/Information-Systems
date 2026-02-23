@@ -1,0 +1,8 @@
+pip
+install
+streamlit
+pandas
+numpy
+plotly
+prophet
+graphviz
